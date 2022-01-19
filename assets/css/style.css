@@ -363,7 +363,8 @@ section .container {
   color: #18d26e;
 }
 .about img{
-	padding-left:75px;
+	/* padding-left:75px; */
+	text-align:center;
 }
 .about-me .content ul {
   list-style: none;
@@ -465,6 +466,8 @@ section .container {
   padding: 20px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
+  height:75px;
+  border-radius:5px;;;
 }
 .interests img {
   width:45px;
@@ -783,7 +786,7 @@ section .container {
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 10px;;
 }
 .portfolio-details .portfolio-info ul {
   /* list-style: none; */
