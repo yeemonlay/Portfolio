@@ -840,7 +840,7 @@ section .container {
 }
 .contact .info-box h3 {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   font-weight: 500;
   margin: 10px 0 8px 68px;
 }
@@ -1003,14 +1003,23 @@ section .container {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #dee2e6;
+  background-color: #e3e8ec24;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
 
     .linestyle {
-      line-height: 0.5;
-      color: black;
+      /* line-height: 0.5; */
+      color: white;
       font-weight: 600; 
       text-align: center;
+      font-size: 15px;
+  }
+
+  .contact .link {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    margin: 10px 0 8px 68px;
+    font-family: "Raleway", sans-serif;
   }
